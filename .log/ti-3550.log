@@ -1,0 +1,28 @@
+[16:24:42.30] Global cache location '/home/alexander/.cache/typescript/3.5', safe file path '/home/alexander/Sync/Projects/tinyhouse/client/node_modules/typescript/lib/typingSafeList.json', types map path /home/alexander/Sync/Projects/tinyhouse/client/node_modules/typescript/lib/typesMap.json
+[16:24:42.32] Processing cache location '/home/alexander/.cache/typescript/3.5'
+[16:24:42.33] Trying to find '/home/alexander/.cache/typescript/3.5/package.json'...
+[16:24:42.135] Loaded content of '/home/alexander/.cache/typescript/3.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.482"},"devDependencies":{"@types/async":"^3.0.8","@types/atob":"^2.1.2","@types/hammerjs":"^2.0.36","@types/isomorphic-fetch":"0.0.35","@types/object-path":"^0.11.0","@types/react":"^16.9.25","@types/react-dom":"^16.9.5","@types/sprintf":"^0.1.0","@types/ua-parser-js":"^0.7.33"}}
+[16:24:42.136] Loaded content of '/home/alexander/.cache/typescript/3.5/package-lock.json'
+[16:24:42.162] Adding entry into typings cache: 'async' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/async/index.d.ts'
+[16:24:42.169] Adding entry into typings cache: 'atob' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/atob/index.d.ts'
+[16:24:42.179] Adding entry into typings cache: 'hammerjs' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/hammerjs/index.d.ts'
+[16:24:42.191] Adding entry into typings cache: 'isomorphic-fetch' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/isomorphic-fetch/index.d.ts'
+[16:24:42.204] Adding entry into typings cache: 'object-path' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/object-path/index.d.ts'
+[16:24:42.236] Adding entry into typings cache: 'react' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/react/index.d.ts'
+[16:24:42.254] Adding entry into typings cache: 'react-dom' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/react-dom/index.d.ts'
+[16:24:42.268] Adding entry into typings cache: 'sprintf' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/sprintf/index.d.ts'
+[16:24:42.283] Adding entry into typings cache: 'ua-parser-js' => '/home/alexander/.cache/typescript/3.5/node_modules/@types/ua-parser-js/index.d.ts'
+[16:24:42.284] Finished processing cache location '/home/alexander/.cache/typescript/3.5'
+[16:24:42.286] Process id: 3557
+[16:24:42.287] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[16:24:42.287] validateDefaultNpmLocation: false
+[16:24:42.288] Npm config file: /home/alexander/.cache/typescript/3.5/package.json
+[16:24:42.288] Updating types-registry npm package...
+[16:24:42.289] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[16:24:47.408]     Succeeded. stdout:
+    + types-registry@0.1.483
+    updated 1 package and audited 15 packages in 2.08s
+found 0 vulnerabilities
+
+
+[16:24:47.408] Updated types-registry npm package
