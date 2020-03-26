@@ -1,18 +1,20 @@
 // the types for mongodb
-import { Collection, ObjectID } from "mongodb";
+import { Collection, ObjectID, ObjectId } from "mongodb";
+
+export interface Booking   {
+    _id: ObjectID;
+}
 
 export interface Listing {
     _id: ObjectID;
-    title: string;
-    image: string;
-    address: string;
-    price: number;
-    numOfGuests: number;
-    numOfBeds: number;
-    numOfBaths: number;
-    rating: number;
+}
+
+export interface User {
+    _id: ObjectId;
 }
 
 export interface Database {
+    bookings: Collection<Booking>;
     listings: Collection<Listing>;
+    users: Collection<User>;
 }
