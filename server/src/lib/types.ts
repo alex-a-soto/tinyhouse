@@ -1,5 +1,13 @@
 import { Collection, ObjectId } from "mongodb";
 
+export interface Viewer {
+    _id?: string;
+    token?: string;
+    avatar?: string;
+    walletId?: string;
+    didRequest: boolean;
+}
+
 export enum ListingType {
   Apartment = "apartment",
   House = "house"
@@ -54,4 +62,12 @@ export interface Database {
   bookings: Collection<Booking>;
   listings: Collection<Listing>;
   users: Collection<User>;
+}
+
+export interface Viewer {
+    _id?: string;
+    token?: string;
+    avatar: string;
+    walletId?: string;
+    didRequest: boolean;
 }
