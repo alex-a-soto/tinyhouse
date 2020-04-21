@@ -5,7 +5,7 @@ require('dotenv').config();
 import express, { Application } from 'express';
 // imports apollo server, a graphql compliant server
 import {ApolloServer} from 'apollo-server-express';
-// document oriented database program, a nosql db program
+// document oriented database program, a nosql db 
 // imports connectDatabase and connects to our MongoDB atlas instance
 import {connectDatabase} from './database'
 // data query and manipulation language for apis
