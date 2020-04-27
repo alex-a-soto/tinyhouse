@@ -12,6 +12,8 @@ import {connectDatabase} from './database'
 // imports typeDefs and resolvers from ./graphql
 import { typeDefs, resolvers } from "./graphql";
 
+import cookieParser from "cookie-parser";
+
 // sets app to express()
 const app = express();
 
@@ -19,11 +21,14 @@ const app = express();
 const mount = async (app: Application) => {
 // sets up db to connect to the database
 const db = await connectDatabase();
+
+app.use(cookieParser(process.env.SECRET));
+
 // sets up apolloserver to use typedefs, resolvers and context
 const server = new ApolloServer({ 
-    typeDefs, 
-    resolvers, 
-    context: () => ({ db })
+    typeDefs,
+    resolvers,
+    context: ({ req, res }) => ({ db, req, res })
  });
 
  //  Setups express as the middleware at the /api path
